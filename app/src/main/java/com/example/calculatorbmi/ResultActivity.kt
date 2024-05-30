@@ -1,6 +1,8 @@
 package com.example.calculatorbmi
 
+import android.graphics.Color
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -39,5 +41,12 @@ class ResultActivity : AppCompatActivity() {
         }
 
         tvClassification.text = classification
+
+        val btnAgain = findViewById<Button>(R.id.btn_again)
+
+        btnAgain.setOnClickListener {
+            finish()
+        }
+
     }
 }

@@ -5,4 +5,8 @@
     <color name="red">#FFFF0000</color>
     <color name="splash_200">#F66262</color>
     <color name="blue">#FF0000FF</color>
+    <color name="color_button">#00F42828</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="green">#4CAF50</color>
+    <color name="orenge">#FF9800</color>
 </resources>
